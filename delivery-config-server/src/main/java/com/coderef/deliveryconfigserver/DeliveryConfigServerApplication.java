@@ -6,6 +6,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+@EnableConfigServer
 @SpringBootApplication
 @EnableEurekaServer
 public class DeliveryConfigServerApplication {
