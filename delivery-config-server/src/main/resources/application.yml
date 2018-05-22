@@ -1,6 +1,11 @@
 server:
   port: 9090
 
+logging:
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+
 spring:
   cloud:
     config:
