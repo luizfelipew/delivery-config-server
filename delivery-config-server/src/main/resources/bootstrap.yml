@@ -1,6 +1,6 @@
 spring:
   application:
-    name: deliveryfacil-config-server
+    name: delivery-config-server
   cloud:
     config:
       discovery:

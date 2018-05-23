@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @EnableConfigServer
 @SpringBootApplication
-@EnableEurekaServer
 public class DeliveryConfigServerApplication {
 
 	public static void main(String[] args) {
